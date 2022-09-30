@@ -7,7 +7,8 @@ public class PawnSetup : ModuleRules
 	public PawnSetup(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		
+		PrivatePCHHeaderFile = "Private/PawnSetupPrivatePCH.h";
+
 		PublicIncludePaths.AddRange(
 			new string[] {
 				// ... add public include paths required here ...
