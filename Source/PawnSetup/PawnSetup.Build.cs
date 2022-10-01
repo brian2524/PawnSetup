@@ -11,5 +11,14 @@ public class PawnSetup : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core" });
 		PrivateDependencyModuleNames.AddRange(new string[] { "CoreUObject", "Engine" });
+
+		PrivateDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"GameplayTags",
+				"EnhancedInput",
+				"InputSetup"
+			}
+		);
 	}
 }

@@ -12,5 +12,6 @@
  */
 namespace PSNativeGameplayTags
 {
-	/*ABILITYSYSTEMSETUP_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_Type_DisableAutoActivationFromInput)*/	// example one used from another plugin
+	PAWNSETUP_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputAction_Move)
+	PAWNSETUP_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputAction_Look)
 }

@@ -8,6 +8,7 @@
 #include "PSActorComponent_PawnExtension.generated.h"
 
 
+struct FInputActionValue;
 
 /**
  * 
@@ -26,6 +27,12 @@ public:
 
 protected:
 	virtual void OnRegister() override;
+
+
+	//  BEGIN Input binding
+	virtual void OnMove(const FInputActionValue& InputActionValue);
+	virtual void OnLook(const FInputActionValue& InputActionValue);
+	//  END Input bindings
 
 	UPROPERTY(Transient)
 		TWeakObjectPtr<APawn> OwnerPawn;
