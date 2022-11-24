@@ -7,5 +7,6 @@
 
 namespace PSNativeGameplayTags
 {
-	/*UE_DEFINE_GAMEPLAY_TAG(Ability_Type_DisableAutoActivationFromInput,						TEXT("Ability.Type.DisableAutoActivationFromInput"))*/	// example one used from another plugin
+	UE_DEFINE_GAMEPLAY_TAG(InputAction_Move,										TEXT("InputAction.Move"))
+	UE_DEFINE_GAMEPLAY_TAG(InputAction_Look,										TEXT("InputAction.Look"))
 }
